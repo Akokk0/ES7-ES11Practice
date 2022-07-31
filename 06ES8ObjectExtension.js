@@ -5,15 +5,16 @@ const school = {
     xueke: ['前端', 'JAVA', '大数据', '运维']
 }
 
-/*console.log(Object.keys(school))
+console.log(Object.keys(school))
 console.log(Object.values(school))
 console.log(Object.entries(school))
 
 //创建map
 const m = new Map(Object.entries(school))
-console.log(m)*/
+console.log(m)
 
 //对象属性的描述对象
+/*
 console.log(Object.getOwnPropertyDescriptors(school))
 
 const obj = Object.create(null, {
@@ -25,4 +26,4 @@ const obj = Object.create(null, {
         configurable: true,
         enumerable: true
     }
-})
+})*/
